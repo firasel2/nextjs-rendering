@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { IMember } from "./interface";
 
 export async function MembersList() {
