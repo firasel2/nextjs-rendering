@@ -42,13 +42,19 @@ export function Header() {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/members-ssr">Members-SSR</Link>
+                <Link href="/books-ssr">Books-SSR</Link>
               </li>
               <li>
-                <Link href="/members-csr">Members-CSR</Link>
+                <Link href="/books-csr">Books-CSR</Link>
               </li>
               <li>
-                <Link href="/members-ppr">Members-PPR</Link>
+                <Link href="/books-ssg">Books-SSG</Link>
+              </li>
+              <li>
+                <Link href="/books-isr">Books-ISR</Link>
+              </li>
+              <li>
+                <Link href="/books-ssr-s">Books-SSR-S</Link>
               </li>
             </ul>
           </div>
