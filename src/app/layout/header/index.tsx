@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="py-5">
       <div className="container">
-        <div className="bg-gray-50 py-3 px-4 border-0 flex items-center justify-between gap-6 rounded-lg mx-auto">
+        <div className="bg-gray-100 py-3 px-4 border-0 flex items-center justify-between gap-6 rounded-lg mx-auto">
           <div className="flex items-center gap-10">
             <h1 className="text-3xl">
               <svg
@@ -42,7 +42,7 @@ export function Header() {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="#">Members</Link>
+                <Link href="/members">Members</Link>
               </li>
               <li>
                 <Link href="#">About</Link>
